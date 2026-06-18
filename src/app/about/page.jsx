@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const WA_URL = 'https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20know%20more%20about%20your%20services';
+const WA_URL = 'https://wa.me/917993522059?text=Hi%2C%20I%20want%20to%20know%20more%20about%20your%20services';
 
 const stats = [
   { value: '10+', label: 'Years Experience' },

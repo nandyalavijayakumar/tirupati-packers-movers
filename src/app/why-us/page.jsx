@@ -15,7 +15,7 @@ const reasons = [
   { icon: '🌟', title: '5000+ Happy Customers', desc: 'Our track record speaks for itself. Over 5000 families and businesses in Tirupati have trusted us with their moves.' },
 ];
 
-const WA_URL = 'https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20a%20move';
+const WA_URL = 'https://wa.me/917993522059?text=Hi%2C%20I%20want%20to%20book%20a%20move';
 
 export default function WhyUsPage() {
   return (

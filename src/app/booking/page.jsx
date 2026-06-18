@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
-const WA_NUMBER = '919876543210';
+const WA_NUMBER = '917993522059';
 
 export default function BookingPage() {
   const [form, setForm] = useState({
@@ -156,14 +156,14 @@ export default function BookingPage() {
 
               <div className="contact-quick">
                 <h4>Quick Contact</h4>
-                <a href="tel:+919876543210" className="contact-row">
-                  <span>📞</span> +91 98765 43210
+                <a href="tel:+917993522059" className="contact-row">
+                  <span>📞</span> +91 79935 22059
                 </a>
-                <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="contact-row">
+                <a href="https://wa.me/917993522059" target="_blank" rel="noopener noreferrer" className="contact-row">
                   <span>💬</span> WhatsApp Us
                 </a>
-                <a href="mailto:info@tirupatipackersmovers.com" className="contact-row">
-                  <span>✉️</span> info@tirupatipackersmovers.com
+                <a href="mailto:nviju25@gmail.com" className="contact-row">
+                  <span>✉️</span> nviju25@gmail.com
                 </a>
               </div>
             </div>

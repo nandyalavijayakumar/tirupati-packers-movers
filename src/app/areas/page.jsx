@@ -15,7 +15,7 @@ const areas = [
   { name: 'Nagari', desc: 'Budget-friendly local and intercity moves covering Nagari and nearby areas.' },
 ];
 
-const WA_URL = 'https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20a%20move';
+const WA_URL = 'https://wa.me/917993522059?text=Hi%2C%20I%20want%20to%20book%20a%20move';
 
 export default function AreasPage() {
   return (

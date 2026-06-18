@@ -13,7 +13,7 @@ const reviews = [
   { name: 'Anitha K.', location: 'Tiruchanoor', rating: 5, date: 'October 2023', text: 'I was very worried about shifting my 2BHK but these guys made it completely stress-free. Everything arrived safely. Thank you so much!' },
 ];
 
-const WA_URL = 'https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20a%20move';
+const WA_URL = 'https://wa.me/917993522059?text=Hi%2C%20I%20want%20to%20book%20a%20move';
 
 function StarRating({ count }) {
   return (

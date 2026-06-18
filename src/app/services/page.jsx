@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const WA_NUMBER = '919876543210';
+const WA_NUMBER = '917993522059';
 const WA_MSG = encodeURIComponent('Hi, I want to enquire about your services');
 const WA_URL = `https://wa.me/${WA_NUMBER}?text=${WA_MSG}`;
 

@@ -5,9 +5,9 @@ export const metadata = {
 };
 
 const contactInfo = [
-  { icon: '📞', label: 'Phone', value: '+91 98765 43210', href: 'tel:+919876543210' },
-  { icon: '💬', label: 'WhatsApp', value: '+91 98765 43210', href: 'https://wa.me/919876543210' },
-  { icon: '✉️', label: 'Email', value: 'info@tirupatipackersmovers.com', href: 'mailto:info@tirupatipackersmovers.com' },
+  { icon: '📞', label: 'Phone', value: '+91 79935 22059', href: 'tel:+917993522059' },
+  { icon: '💬', label: 'WhatsApp', value: '+91 79935 22059', href: 'https://wa.me/917993522059' },
+  { icon: '✉️', label: 'Email', value: 'nviju25@gmail.com', href: 'mailto:nviju25@gmail.com' },
   { icon: '📍', label: 'Address', value: 'Tirupati, Andhra Pradesh, India', href: null },
 ];
 
@@ -54,7 +54,7 @@ export default function ContactPage() {
                   <a href="#" className="social-btn fb" title="Facebook">f</a>
                   <a href="#" className="social-btn ig" title="Instagram">📷</a>
                   <a href="#" className="social-btn yt" title="YouTube">▶</a>
-                  <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="social-btn wa" title="WhatsApp">💬</a>
+                  <a href="https://wa.me/917993522059" target="_blank" rel="noopener noreferrer" className="social-btn wa" title="WhatsApp">💬</a>
                 </div>
               </div>
             </div>
@@ -66,7 +66,7 @@ export default function ContactPage() {
                 <h3>Ready to Move?</h3>
                 <p>Book your move now via WhatsApp for instant confirmation and a free quote.</p>
                 <a
-                  href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20a%20move"
+                  href="https://wa.me/917993522059?text=Hi%2C%20I%20want%20to%20book%20a%20move"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-green cta-btn"

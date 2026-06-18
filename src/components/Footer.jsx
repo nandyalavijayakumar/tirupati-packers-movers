@@ -41,8 +41,8 @@ export default function Footer() {
 
         <div className="footer-col">
           <h4>Contact Info</h4>
-          <a href="tel:+919876543210">📞 +91 98765 43210</a>
-          <a href="mailto:info@tirupatipackersmovers.com">✉️ info@tirupatipackersmovers.com</a>
+          <a href="tel:+917993522059">📞 +91 79935 22059</a>
+          <a href="mailto:nviju25@gmail.com">✉️ nviju25@gmail.com</a>
           <span>📍 Tirupati, Andhra Pradesh</span>
         </div>
       </div>

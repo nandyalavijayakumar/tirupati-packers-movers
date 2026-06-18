@@ -16,7 +16,7 @@ export default function Navbar() {
     { href: '/contact', label: 'Contact' },
   ];
 
-  const whatsappNumber = '919876543210';
+  const whatsappNumber = '917993522059';
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=Hi%2C%20I%20want%20to%20book%20a%20move%20with%20Tirupati%20Packers%20%26%20Movers`;
 
   return (
