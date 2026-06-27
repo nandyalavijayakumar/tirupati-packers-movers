@@ -1,5 +1,6 @@
 
 import Link from 'next/link';
+import Script from "next/script";
 
 const WA_NUMBER = '917993522059';
 const WA_MSG = encodeURIComponent('Hi, I want to book a move with Tirupati Packers & Movers');
@@ -46,16 +47,33 @@ export default function HomePage() {
         <div className="hero-content">
           <span className="hero-badge">Trusted Packers & Movers in Tirupati</span>
           <h1>
-            Safe. Fast. Affordable<br />
-            <span className="hero-highlight">House Shifting Services</span>
-          </h1>
+  Best Packers and Movers in Tirupati for
+  <span className="hero-highlight">
+    {" "}House Shifting, Office Relocation & Vehicle Transport
+  </span>
+</h1>
           <p>We make your move simple and stress-free.<br />From packing to delivery – We handle everything!</p>
           <div className="hero-buttons">
-            <a href={WA_URL} target="_blank" rel="noopener noreferrer" className="btn-green">
-              📱 Book on WhatsApp
-            </a>
-            <Link href="/booking" className="btn-outline">Get a Quote</Link>
-          </div>
+  <a
+    href={WA_URL}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn-green"
+  >
+    📱 Book on WhatsApp
+  </a>
+
+  <Link href="/booking" className="btn-outline">
+    Get a Quote
+  </Link>
+
+  <a
+    href="tel:+917993522059"
+    className="btn-outline"
+  >
+    📞 Call Now
+  </a>
+</div>
         </div>
         <div className="hero-image">
           <div className="truck-placeholder">
@@ -65,27 +83,51 @@ export default function HomePage() {
         </div>
 
         
-      </section>
+  </section>
 
-      {/* TRUST POINTS */}
-      <section className="trust-bar">
-        <div className="container">
-          <div className="trust-grid">
-            {trustPoints.map((t) => (
-              <div key={t.title} className="trust-item">
-                <span className="trust-icon">{t.icon}</span>
-                <div>
-                  <div className="trust-title">{t.title}</div>
-                  <div className="trust-desc">{t.desc}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-   
-      </section>
+{/* ABOUT US */}
+<section className="section">
+  <div className="container">
 
-      {/* SERVICES */}
+    <h2 className="section-title">
+      Professional Packers and Movers in Tirupati
+    </h2>
+
+    <p
+      style={{
+        textAlign: 'center',
+        maxWidth: '1000px',
+        margin: '0 auto',
+        lineHeight: '1.9',
+        color: '#555',
+        fontSize: '1.05rem'
+      }}
+    >
+      Tirupati Packers & Movers is one of the most trusted relocation companies
+      in Tirupati offering safe, affordable and reliable moving services.
+      Whether you are shifting your house, apartment, office or commercial
+      establishment, our experienced team ensures every item is packed,
+      transported and delivered with complete care.
+
+      <br /><br />
+
+      We specialize in house shifting, office relocation, local shifting,
+      furniture moving, loading & unloading, bike transportation and car
+      transport services. Using premium packing materials and trained
+      professionals, we minimize damage risks and ensure on-time delivery.
+
+      <br /><br />
+
+      Thousands of customers trust Tirupati Packers & Movers because of our
+      transparent pricing, experienced staff, modern vehicles and excellent
+      customer support. From a single room to complete villa relocation, we
+      provide customized moving solutions that fit every budget.
+    </p>
+
+  </div>
+</section>
+
+{/* SERVICES */}
       <section className="section">
         <div className="container">
           <h2 className="section-title">Our Services</h2>
@@ -124,7 +166,74 @@ export default function HomePage() {
        
       </section>
 
-      {/* SERVICE AREAS */}
+{/* WHY CUSTOMERS CHOOSE US */}
+<section className="section">
+  <div className="container">
+
+    <h2 className="section-title">
+      Why Thousands of Customers Choose Tirupati Packers & Movers
+    </h2>
+
+    <div
+      style={{
+        maxWidth: "1000px",
+        margin: "0 auto",
+        lineHeight: "1.9",
+        color: "#555",
+      }}
+    >
+
+      <h3 style={{ marginTop: 20 }}>
+  Professional Packing Services
+</h3>
+
+      <p>
+        We use high-quality packing materials including bubble wrap, carton
+        boxes, stretch film, foam sheets and waterproof covers to protect
+        fragile items during transportation. Every item is packed carefully by
+        trained professionals.
+      </p>
+
+      <h3 style={{ marginTop: 25 }}>✔ Safe Transportation</h3>
+
+      <p>
+        Our experienced drivers and well-maintained moving vehicles ensure that
+        your belongings reach the destination safely and on time. Whether it is
+        local shifting within Tirupati or long-distance relocation, we handle
+        every move professionally.
+      </p>
+
+      <h3 style={{ marginTop: 25 }}>✔ Affordable Pricing</h3>
+
+      <p>
+        We believe in transparent pricing without hidden charges. Every customer
+        receives a detailed quotation before booking, helping families and
+        businesses plan their relocation within budget.
+      </p>
+
+      <h3 style={{ marginTop: 25 }}>✔ Experienced Moving Team</h3>
+
+      <p>
+        Our trained staff has extensive experience in residential shifting,
+        office relocation, furniture moving, loading & unloading and vehicle
+        transportation. We treat every customer's belongings with the same care
+        as our own.
+      </p>
+
+      <h3 style={{ marginTop: 25 }}>✔ Customer Satisfaction</h3>
+
+      <p>
+        Customer satisfaction is our highest priority. We focus on punctuality,
+        careful handling, professional service and excellent customer support
+        from booking until delivery.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+{/* SERVICE AREAS */}
       <section className="section section-alt">
         <div className="container">
           <div className="areas-layout">
@@ -146,6 +255,122 @@ export default function HomePage() {
         </div>
         
       </section>
+      {/* WHY HIRE PROFESSIONAL MOVERS */}
+<section className="section section-alt">
+  <div className="container">
+
+    <h2 className="section-title">
+      Why Hire Professional Packers and Movers in Tirupati?
+    </h2>
+
+    <p
+      style={{
+        maxWidth: "1000px",
+        margin: "0 auto",
+        textAlign: "center",
+        lineHeight: "1.9",
+        color: "#555",
+      }}
+    >
+      Moving to a new home or office is an exciting experience, but it can also
+      be stressful without professional assistance. Packing delicate items,
+      lifting heavy furniture, arranging transportation and unloading everything
+      safely requires proper planning and experienced manpower.
+    </p>
+
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit,minmax(280px,1fr))",
+        gap: "30px",
+        marginTop: "50px",
+      }}
+    >
+
+      <div className="service-card">
+        <h3>🏠 Safe House Shifting</h3>
+
+        <p>
+          We carefully pack every household item including furniture,
+          electronics, kitchen items, glassware and appliances using premium
+          packing materials to prevent damage during transportation.
+        </p>
+      </div>
+
+      <div className="service-card">
+        <h3>🏢 Office Relocation</h3>
+
+        <p>
+          Our office relocation service helps businesses move quickly with
+          minimum downtime. We safely transport office furniture, computers,
+          files and equipment.
+        </p>
+      </div>
+
+      <div className="service-card">
+        <h3>🚗 Vehicle Transportation</h3>
+
+        <p>
+          Need to move your bike or car? Our secure vehicle transport service
+          ensures safe delivery across Andhra Pradesh and throughout India.
+        </p>
+      </div>
+
+      <div className="service-card">
+        <h3>📦 Premium Packing Materials</h3>
+
+        <p>
+          We use bubble wrap, corrugated boxes, foam sheets, stretch film and
+          waterproof covers to keep your belongings completely protected.
+        </p>
+      </div>
+
+      <div className="service-card">
+        <h3>👷 Experienced Team</h3>
+
+        <p>
+          Every move is handled by trained professionals with years of
+          experience in residential and commercial relocation.
+        </p>
+      </div>
+
+      <div className="service-card">
+        <h3>💰 Affordable Pricing</h3>
+
+        <p>
+          We provide transparent quotations with no hidden charges, ensuring
+          that you receive excellent value for money.
+        </p>
+      </div>
+
+    </div>
+
+    <div
+      style={{
+        marginTop: "40px",
+        lineHeight: "1.9",
+        color: "#555",
+      }}
+    >
+
+      <p>
+        At Tirupati Packers & Movers, customer satisfaction is our highest
+        priority. From the moment you request a quotation until the final item
+        is unloaded at your destination, our team remains committed to
+        delivering a smooth and hassle-free relocation experience.
+      </p>
+
+      <p>
+        Whether you are moving locally within Tirupati or relocating to another
+        city, we provide dependable relocation services with modern vehicles,
+        experienced staff and professional packing techniques. Our goal is to
+        make every move safe, affordable and stress-free.
+      </p>
+
+    </div>
+
+  </div>
+</section>
 
       {/* HOW IT WORKS */}
       <section className="section">
@@ -167,7 +392,269 @@ export default function HomePage() {
      
       </section>
 
-      {/* CTA BANNER */}
+{/* CUSTOMER TESTIMONIALS */}
+<section className="section section-alt">
+  <div className="container">
+
+    <h2 className="section-title">
+      What Our Customers Say
+    </h2>
+
+    <p className="section-subtitle">
+      We are proud to have helped thousands of happy customers with safe and stress-free relocations.
+    </p>
+
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))",
+        gap: "25px",
+        marginTop: "40px",
+      }}
+    >
+
+      <div className="service-card">
+        <div style={{ fontSize: "22px", color: "#f59e0b" }}>
+          ⭐⭐⭐⭐⭐
+        </div>
+
+        <p style={{ marginTop: "15px" }}>
+          Excellent packing quality and on-time delivery. The team handled our
+          furniture carefully and completed the entire house shifting process
+          without any damage. Highly recommended.
+        </p>
+
+        <h3 style={{ marginTop: "20px" }}>
+          Ravi Kumar
+        </h3>
+
+        <small>Tirupati</small>
+      </div>
+
+      <div className="service-card">
+        <div style={{ fontSize: "22px", color: "#f59e0b" }}>
+          ⭐⭐⭐⭐⭐
+        </div>
+
+        <p style={{ marginTop: "15px" }}>
+          Very professional movers with affordable pricing. Booking through
+          WhatsApp was easy, and the staff arrived exactly on time. Great
+          service.
+        </p>
+
+        <h3 style={{ marginTop: "20px" }}>
+          Lakshmi Devi
+        </h3>
+
+        <small>Renigunta</small>
+      </div>
+
+      <div className="service-card">
+        <div style={{ fontSize: "22px", color: "#f59e0b" }}>
+          ⭐⭐⭐⭐⭐
+        </div>
+
+        <p style={{ marginTop: "15px" }}>
+          We shifted our office to a new location, and everything was completed
+          quickly with minimal downtime. Excellent customer support throughout
+          the relocation.
+        </p>
+
+        <h3 style={{ marginTop: "20px" }}>
+          Srinivas Rao
+        </h3>
+
+        <small>Chandragiri</small>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+{/* FAQ */}
+<section className="section">
+  <div className="container">
+
+    <h2 className="section-title">
+      Frequently Asked Questions
+    </h2>
+
+    <p className="section-subtitle">
+      Everything you need to know before booking our Packers and Movers services.
+    </p>
+
+    <div
+      style={{
+        maxWidth: "900px",
+        margin: "40px auto 0",
+        display: "grid",
+        gap: "20px",
+      }}
+    >
+
+      <div className="service-card">
+        <h3>How much does house shifting cost in Tirupati?</h3>
+        <p>
+          House shifting charges depend on the number of household items,
+          distance, floor level and additional services required. Contact us
+          for a free, no-obligation quotation.
+        </p>
+      </div>
+
+      <div className="service-card">
+        <h3>Do you provide packing materials?</h3>
+        <p>
+          Yes. We use premium quality carton boxes, bubble wrap, foam sheets,
+          stretch film and waterproof packing materials for maximum protection.
+        </p>
+      </div>
+
+      <div className="service-card">
+        <h3>Do you provide office relocation services?</h3>
+        <p>
+          Yes. We offer office shifting for businesses of every size while
+          minimizing downtime and ensuring safe transportation of office
+          equipment.
+        </p>
+      </div>
+
+      <div className="service-card">
+        <h3>Can you transport bikes and cars?</h3>
+        <p>
+          Absolutely. We provide secure bike transportation and car carrier
+          services throughout Andhra Pradesh and across India.
+        </p>
+      </div>
+
+      <div className="service-card">
+        <h3>How do I book your moving service?</h3>
+        <p>
+          Simply click the WhatsApp button or fill out our booking form. Our
+          team will contact you immediately with pricing and scheduling details.
+        </p>
+      </div>
+
+      <div className="service-card">
+        <h3>Which locations do you serve?</h3>
+        <p>
+          We provide relocation services in Tirupati, Renigunta,
+          Tiruchanoor, Chandragiri, Srikalahasti, Yerpedu and nearby
+          locations.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+{/* FAQ SCHEMA */}
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does house shifting cost in Tirupati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "House shifting charges depend on the number of household items, distance, floor level and services required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide packing materials?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We use premium quality packing materials for safe transportation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide office relocation services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We provide professional office relocation services."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you transport bikes and cars?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We provide bike and car transportation services across India."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I book your moving service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Book through WhatsApp or the online booking form."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which locations do you serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We serve Tirupati, Renigunta, Tiruchanoor, Chandragiri, Srikalahasti, Yerpedu and surrounding areas."
+          }
+        }
+      ]
+    }),
+  }}
+/>
+<Script
+  id="breadcrumb-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.tirupatimovers.in",
+        },
+      ],
+    }),
+  }}
+/>
+<section className="section">
+  <div className="container">
+
+    <h2 className="section-title">
+      Trusted Packers and Movers in Tirupati
+    </h2>
+
+    <p
+      style={{
+        maxWidth: "1000px",
+        margin: "0 auto",
+        lineHeight: "1.9",
+        color: "#555",
+      }}
+    >
+      Tirupati Packers & Movers has helped thousands of families and businesses
+      relocate safely. Whether you need house shifting, office relocation,
+      furniture moving, local shifting or vehicle transportation, our trained
+      professionals ensure every move is smooth and hassle-free. We proudly
+      serve Tirupati, Renigunta, Tiruchanoor, Chandragiri, Srikalahasti and
+      nearby areas with affordable pricing, modern equipment and reliable
+      customer support.
+    </p>
+
+  </div>
+</section>
+{/* CTA BANNER */}
       <section className="cta-banner">
         <div className="container" style={{ textAlign: 'center' }}>
           <h2>Ready to Move? Get a Free Quote!</h2>
